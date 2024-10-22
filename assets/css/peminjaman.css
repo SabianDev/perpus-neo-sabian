@@ -1,0 +1,295 @@
+@import url(color.css);
+.contents{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: var(--lightgray2);
+    
+}
+ul {
+    list-style-type: none; 
+}
+ul li{
+    margin-bottom: 10px;
+}
+
+.text-headers{
+    font-weight: 800;
+}
+
+.container-editdelete{
+    /* background-color: navajowhite; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.a-link{
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.input-group-text{
+    text-align: left;
+    box-shadow: 2px 2px 4px #888888;
+}
+.igt-disabled{
+    background-color: #eee;
+    text-align: left;
+    box-shadow: 2px 2px 4px #888888;
+}
+/* --- style tambah,edit,hapus -------------------- */
+.contents-tambah{
+    padding: 20px;
+    height: 100vh;
+    /* background-color: tan; */
+}
+
+.container-tambah{
+    /* background-color: cadetblue; */
+    padding: 20px;
+
+    border-width: 3px;
+    border-style: solid;
+    border-color: var(--lightgray);
+    border-radius: 20px;
+    /* box-shadow: 5px 5px 10px #888888; */
+}
+
+
+/* --- content top -------------------- */
+
+.contents-top{
+    flex:0.5;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 0px 40px;
+    /* background-color: chartreuse; */
+}
+
+.input-group{
+    flex:3;
+    /* background-color: aqua; */
+    padding-right: 20px;
+    
+}
+
+.btn-flex{
+    display: flex;
+}
+
+.searchby{
+    flex: 1;
+}
+
+/* --- content mid -------------------- */
+
+.contents-mid{
+    flex: 5;
+    
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 40px;   
+    padding-top: 10px;
+    overflow: scroll;
+    /* background-color: chocolate; */
+}
+.contents-mid-export{
+    flex: 5;
+    
+    overflow: hidden;
+    /* background-color: chartreuse; */
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 40px;   
+    padding-top: 10px;
+}
+.table-export{
+    font-size: 10px;
+    overflow: scroll;
+}
+/* --- content bottom -------------------- */
+
+.contents-bottom{
+    flex: 0.7;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px;
+    /* background-color: salmon; */
+}
+
+/* .bottom-left-a{
+    background-color: cadetblue;
+}
+.bottom-right-a{
+    background-color: chartreuse;
+} */
+
+/* --- list buku view-------------------- */
+.content-header{
+    display: flex;
+}
+.header-title{
+    flex: 3;
+}
+.header-status{
+    flex: 1,5;
+    display: flex;
+    justify-content: end;
+    /* background-color: aqua; */
+}
+.status-style{
+    margin: 10px;
+    padding: 10px;
+    background-color: var(--blue);
+    font-weight: 700;
+    color: white;
+    border-radius: 15px;
+}
+.status-denda{
+    margin: 10px;
+    padding: 10px;
+    background-color: var(--blue);
+    font-weight: 700;
+    color: white;
+    border-radius: 15px;
+}
+
+.status-style-ada{
+    background-color: var(--success);
+}
+
+.status-style-dipinjam{
+    background-color: var(--failed);
+}
+
+/* datatables */
+
+.contents-wrapper-listbuku{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    /* background-color: chartreuse; */
+}
+
+.contents-wrapper-member{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    /* background-color: chartreuse; */
+}
+
+.table-button-buku{
+    /* background-color: goldenrod;     */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* .div-button{
+    background-color: salmon;
+    
+}
+
+.div-page{
+    background-color: firebrick;
+
+} */
+
+
+/* form container & wrapper 01-02-03-04 */
+.container-contents{
+
+    /* background-color: royalblue; */
+    padding: 20px;
+
+    height: 90%;
+    overflow: hidden;
+
+    border-width: 3px;
+    border-style: solid;
+    border-color: var(--lightgray);
+    border-radius: 20px;
+    
+}
+
+.container-form{
+    
+    display: flex;
+    flex-direction: column;
+    /* background-color: black; */
+    height: 100%;
+
+}
+
+/* =============WRAPPER 1 GROUP============= */
+
+.wrapper-01{
+    /* background-color: salmon; */
+    display: flex;
+    flex-direction: row;
+}
+
+.ctn-npmPeminjam,.ctn-angkatan{
+    flex: 0,3;
+    padding: 5px;
+}
+
+.ctn-namaPeminjam{
+    flex: 1;
+    padding: 5px;
+}
+
+/* =============WRAPPER 2 GROUP============= */
+.wrapper-02{
+    /* background-color: gold; */
+    display: flex;
+    flex-direction: row;
+}
+
+.ctn-idBuku{
+    flex: 0,3;
+    padding: 5px;
+}
+
+.ctn-judulBuku,.ctn-pengarang,.ctn-status{
+    flex: 1;
+    padding: 5px;
+}
+
+/* =============WRAPPER 3 GROUP============= */
+.wrapper-03{
+    /* background-color: cornflowerblue; */
+    display: flex;
+    flex-direction: row;
+}
+
+.ctn-durasi,.ctn-tglPinjam,.ctn-batas{
+    flex: 1;
+    padding: 5px;
+}
+
+.ctn-durasi{
+    display: flex;
+    flex-direction: column;
+}
+
+.ctn-bottom{
+    display: flex;
+    align-items: center;
+}
+
+/* =============WRAPPER 4 GROUP============= */
+.wrapper-04{
+    flex: 1;
+    padding: 5px;
+    padding-top: 20px;
+    /* background-color: chartreuse; */
+}

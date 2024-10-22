@@ -1,0 +1,110 @@
+@import url(color.css);
+/* ----CONTENTS--------------------------------------------- */
+
+.contents{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: var(--lightgray2);
+    overflow: hidden;
+}
+
+.contents-top{
+    flex:1;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    
+    /* background-color: chartreuse; */
+}
+
+.contents-bottom{
+    flex:2;
+    display: flex;
+    /* background-color: salmon; */
+}
+
+.contents-bottom-left{
+    flex:2;
+    padding: 20px;
+    /* background-color: yellow; */
+}
+
+.contents-bottom-right{
+    flex:1;
+    padding: 20px;
+    /* background-color: mediumaquamarine; */
+}
+
+/* ----Overview Box--------------------------------------------- */
+.ovbox{
+    border-radius: 20px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    background-color: var(--blue);
+    color: white;
+    padding: 10px;
+}
+
+.ovbox-top{
+    flex: 2;
+    display: flex;
+}
+
+.ovbox-top-left{
+    flex: 2;
+    font-size: 50px;
+    font-weight: 800;
+    /* background-color: gold; */
+}
+
+.ovbox-top-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    /* background-color: rosybrown; */
+}
+
+.ovbox-bottom{
+    flex: 1;
+    padding-top: 14px;
+}
+
+/* ----Pengunjung Hari Ini--------------------------------------------- */
+.bottom-right_up{
+    display: flex;
+}
+
+.right_up_title{
+    flex: 2;
+    /* background-color: yellowgreen; */
+}
+
+.right_up_button{
+    flex: 0.6;
+    display: flex;
+    flex-direction: row ;
+    color: rgb(26, 26, 26);
+    text-decoration: none;
+    justify-content: space-around;
+    /* background-color: salmon; */
+}
+
+.right_up_button:hover{
+    text-decoration: none;
+    color: var(--blue);    
+}
+
+.pengunjung-hari-ini{
+    text-decoration: none;
+    color: rgb(26, 26, 26);
+}
+
+.pengunjung-hari-ini:hover{
+    text-decoration: none;
+    color: var(--blue);
+}

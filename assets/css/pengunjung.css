@@ -1,0 +1,58 @@
+.contents-wrapper-pengunjung{
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+    /* background-color: chartreuse; */
+}
+
+.contents2-top{
+    /* background-color: red; */
+    flex: 0.2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contents2-mid{
+    /* background-color: yellow; */
+    overflow: scroll;
+    flex: 2;
+}
+
+.contents2-bottom{
+    /* background-color: slateblue; */
+
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* .row{
+    background-color: red;
+} */
+
+/* .table-search{
+    background-color: blue;
+    display: flex;
+} */
+
+.table-filter{
+    /* background-color: coral; */
+    /* display: flex; */
+    flex-direction: row;
+    
+}
+
+.table-info{
+    /* background-color: aqua; */
+    width: 100%;
+    /* display: flex; */
+    flex-direction: row;
+}
+
+.table-button{
+    /* background-color: goldenrod; */
+    width: 100%;
+}

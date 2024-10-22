@@ -1,0 +1,203 @@
+@import url(color.css);
+.contents{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: var(--lightgray2);
+    
+}
+ul {
+    list-style-type: none; 
+}
+ul li{
+    margin-bottom: 10px;
+}
+
+.text-headers{
+    font-weight: 800;
+}
+
+.container-editdelete{
+    /* background-color: navajowhite; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.a-link{
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.input-group-text{
+    text-align: left;
+    width: 60%;
+    box-shadow: 2px 2px 4px #888888;
+}
+/* --- style tambah,edit,hapus -------------------- */
+.contents-tambah{
+    padding: 20px;
+    height: 100vh;
+    /* background-color: tan; */
+}
+.container-tambah{
+    /* background-color: cadetblue; */
+    padding: 20px;
+
+    border-width: 3px;
+    border-style: solid;
+    border-color: var(--lightgray);
+    border-radius: 20px;
+    /* box-shadow: 5px 5px 10px #888888; */
+}
+
+/* --- content top -------------------- */
+
+.contents-top{
+    flex:0.5;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 0px 40px;
+    /* background-color: chartreuse; */
+}
+
+.input-group{
+    flex:3;
+    /* background-color: aqua; */
+    padding-right: 20px;
+    
+}
+
+.btn-flex{
+    display: flex;
+}
+
+.searchby{
+    flex: 1;
+}
+
+
+
+/* --- content bottom -------------------- */
+
+.contents-bottom{
+    flex: 0.7;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px;
+    /* background-color: salmon; */
+}
+
+/* .bottom-left-a{
+    background-color: cadetblue;
+}
+.bottom-right-a{
+    background-color: chartreuse;
+} */
+
+/* --- list buku view-------------------- */
+.content-header{
+    display: flex;
+}
+.header-title{
+    flex: 3;
+}
+.header-status{
+    flex: 1;
+    display: flex;
+    justify-content: end;
+}
+.status-style{
+    margin: 10px;
+    padding: 10px;
+    background-color: var(--blue);
+    font-weight: 700;
+    color: white;
+    border-radius: 15px;
+}
+
+.status-style-ada{
+    background-color: var(--success);
+}
+
+.status-style-dipinjam{
+    background-color: var(--failed);
+}
+
+/* datatables */
+
+.contents-wrapper-listbuku{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    /* background-color: chartreuse; */
+}
+
+.contents-wrapper-member{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    /* background-color: chartreuse; */
+}
+
+.table-button-buku{
+    /* background-color: goldenrod;     */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* .div-button{
+    background-color: salmon;
+    
+}
+
+.div-page{
+    background-color: firebrick;
+
+} */
+
+/* --- content mid -------------------- */
+
+
+
+
+.contents-mid{
+    flex: 5;
+    
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 40px;   
+    padding-top: 10px;
+    overflow: hidden;
+}
+
+    .contents-mid-title{
+        flex: 0.1;
+        /* background-color: yellow; */
+    }
+    .contents-mid-mainctn{
+        /* background-color: aqua; */
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        overflow: scroll;
+    }
+
+        .contents-mid-kiri{
+            padding: 0;
+            /* background-color: yellowgreen; */
+        }
+
+        .contents-mid-kanan{
+            padding-top: 10px;
+            flex: 1;
+            /* background-color: brown; */
+            overflow: scroll;
+        }
